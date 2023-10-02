@@ -5,7 +5,7 @@ go 1.21.1
 require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.7.0
-	github.com/tierklinik-dobersberg/apis v0.0.0-20231002085314-60b10df02c46
+	github.com/tierklinik-dobersberg/apis v0.0.0-20231002090432-3c00d4568ef1
 	github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002083004-2dbd91e6d5c3
 	github.com/tierklinik-dobersberg/rosterd v0.0.0-20231002083014-b0b8c12cd61d
 )

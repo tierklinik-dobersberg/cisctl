@@ -47,6 +47,8 @@ github.com/stretchr/testify v1.7.4/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/tierklinik-dobersberg/apis v0.0.0-20231002085314-60b10df02c46 h1:0k8ILU3dPTQef8xEC3gm72mSsznH/mQF0yut+1pcx6c=
 github.com/tierklinik-dobersberg/apis v0.0.0-20231002085314-60b10df02c46/go.mod h1:UxfBUf+0aIjeNnKcc+wP+4BBZJkCFvwhS+icM4+M81U=
+github.com/tierklinik-dobersberg/apis v0.0.0-20231002090432-3c00d4568ef1 h1:PPYOVDimrrSse8Eg81KS69P2lQJY0MFz0SkbL0S9qRo=
+github.com/tierklinik-dobersberg/apis v0.0.0-20231002090432-3c00d4568ef1/go.mod h1:UxfBUf+0aIjeNnKcc+wP+4BBZJkCFvwhS+icM4+M81U=
 github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002083004-2dbd91e6d5c3 h1:Qr/DP897ICa9Jhu40CQSz+krhN1pHFw3bL6mgGI27DI=
 github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002083004-2dbd91e6d5c3/go.mod h1:X0YCkTilJg/1PYU0C5lCecDFQIRo2e4Hoh+wHHakdD0=
 github.com/tierklinik-dobersberg/rosterd v0.0.0-20231002083014-b0b8c12cd61d h1:HahNkVrwsbMzwMy/77D7JnOLNzmDYT2KCcVfL6L8V7M=

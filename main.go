@@ -14,7 +14,7 @@ func dumpConfig(root *cli.Root) *cobra.Command {
 		Use:  "dump-config",
 		Args: cobra.NoArgs,
 		Run: func(cmd *cobra.Command, args []string) {
-			root.Print(root)
+			root.Print(root.Config())
 		},
 	}
 }
