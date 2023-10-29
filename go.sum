@@ -2,6 +2,8 @@ bazil.org/fuse v0.0.0-20160811212531-371fbbdaa898/go.mod h1:Xbm+BRKSBEpa4q4hTSxo
 bazil.org/fuse v0.0.0-20180421153158-65cc252bf669/go.mod h1:Xbm+BRKSBEpa4q4hTSxohYNQpsxXPbPry4JJWOB3LB8=
 buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.31.0-20230914171853-63dfe56cc2c4.1 h1:2gmp+PRca1fqQHf/WMKOgu9inVb0R0N07TucgY3QZCQ=
 buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.31.0-20230914171853-63dfe56cc2c4.1/go.mod h1:xafc+XIsTxTy76GJQ1TKgvJWsSugFBqMaN27WhUblew=
+buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.31.0-20231017183020-0de7443d03cf.2 h1:t3Bq7+sq30Ga31zuUZVk02meAYwhiZ9SGMRVQPJJgqs=
+buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.31.0-20231017183020-0de7443d03cf.2/go.mod h1:xafc+XIsTxTy76GJQ1TKgvJWsSugFBqMaN27WhUblew=
 cloud.google.com/go v0.16.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
@@ -943,6 +945,8 @@ github.com/klauspost/compress v1.13.5/go.mod h1:/3/Vjq9QcHkK5uEr5lBEmyoZ1iFhe47e
 github.com/klauspost/compress v1.13.6/go.mod h1:/3/Vjq9QcHkK5uEr5lBEmyoZ1iFhe47etQ6QUkpK6sk=
 github.com/klauspost/compress v1.17.0 h1:Rnbp4K9EjcDuVuHtd0dgA4qNuv9yKDYKK1ulpJwgrqM=
 github.com/klauspost/compress v1.17.0/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
+github.com/klauspost/compress v1.17.2 h1:RlWWUY/Dr4fL8qk9YG7DTZ7PDgME2V4csBXA8L/ixi4=
+github.com/klauspost/compress v1.17.2/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/kr/fs v0.1.0/go.mod h1:FFnZGqtBN9Gxj7eW1uZ42v5BccTP0vu6NEaFoC2HwRg=
 github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFBFZlji/RkVcI2GknAs/DXo4wKdlNEc=
@@ -1225,12 +1229,24 @@ github.com/tierklinik-dobersberg/apis v0.0.0-20231002085314-60b10df02c46 h1:0k8I
 github.com/tierklinik-dobersberg/apis v0.0.0-20231002085314-60b10df02c46/go.mod h1:UxfBUf+0aIjeNnKcc+wP+4BBZJkCFvwhS+icM4+M81U=
 github.com/tierklinik-dobersberg/apis v0.0.0-20231002090432-3c00d4568ef1 h1:PPYOVDimrrSse8Eg81KS69P2lQJY0MFz0SkbL0S9qRo=
 github.com/tierklinik-dobersberg/apis v0.0.0-20231002090432-3c00d4568ef1/go.mod h1:UxfBUf+0aIjeNnKcc+wP+4BBZJkCFvwhS+icM4+M81U=
+github.com/tierklinik-dobersberg/apis v0.0.0-20231029070933-aca80266df8d h1:2DzsYiI5DvE2PRom81ItmRPE/pPx4GyFWigmOEaA+uQ=
+github.com/tierklinik-dobersberg/apis v0.0.0-20231029070933-aca80266df8d/go.mod h1:UxfBUf+0aIjeNnKcc+wP+4BBZJkCFvwhS+icM4+M81U=
+github.com/tierklinik-dobersberg/apis v0.0.0-20231029073555-be5720a37ba2 h1:kSQrJz4j6Ga9ut8VYwGA4mxHbap2RipaMmu/W2ckpR8=
+github.com/tierklinik-dobersberg/apis v0.0.0-20231029073555-be5720a37ba2/go.mod h1:UxfBUf+0aIjeNnKcc+wP+4BBZJkCFvwhS+icM4+M81U=
 github.com/tierklinik-dobersberg/cis v0.0.0-20221117114909-db8d495a4502 h1:NGwJZ6HPTjOhP+hHULdcoNgayybTdzV+2nzFQcnaeVE=
 github.com/tierklinik-dobersberg/cis v0.0.0-20221117114909-db8d495a4502/go.mod h1:o+Od7FimjdMun8KtG3VNNb+wuhawkPE5yGOmx53Wgx4=
+github.com/tierklinik-dobersberg/cis v0.0.0-20231026102947-826fb1672599 h1:HrRksYRR5OcpJEsqdNYi2OU+rdURPvrwI4sU14gTh+8=
+github.com/tierklinik-dobersberg/cis v0.0.0-20231026102947-826fb1672599/go.mod h1:jOjQltGeHDxePGBCjEP28S5NeQ0q4J40UrloIR1NWBE=
 github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002083004-2dbd91e6d5c3 h1:Qr/DP897ICa9Jhu40CQSz+krhN1pHFw3bL6mgGI27DI=
 github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002083004-2dbd91e6d5c3/go.mod h1:X0YCkTilJg/1PYU0C5lCecDFQIRo2e4Hoh+wHHakdD0=
 github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002090630-7ab2099b23d8 h1:x33inRm0TjUoaqiJ439Ye9dVBx3HFHggsZiZnG595gA=
 github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231002090630-7ab2099b23d8/go.mod h1:/bAastcQ0uHhLawu+axk/xLXUF2T1BPLy28YAUHMZk8=
+github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231029072558-e4dad5097a9c h1:SGIq0Ezm1DUesKHRQRt53N4XVToUbMN42Glma85/7kg=
+github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231029072558-e4dad5097a9c/go.mod h1:OfdBWKnoHJ9U94rU2e8uOdayNry7LvP8+u5+ghCEqyE=
+github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231029073236-8712fea4c8be h1:ax5Fjrzhnq1IETJGCo5WH067UM665eu9OBivYQ15vak=
+github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231029073236-8712fea4c8be/go.mod h1:OfdBWKnoHJ9U94rU2e8uOdayNry7LvP8+u5+ghCEqyE=
+github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231029074036-8717e41193b7 h1:3S9yrrhm1BOG3IaMyuk7/wljQR+2Uh9T5kNjRTK6Pbc=
+github.com/tierklinik-dobersberg/cis-idm v0.0.0-20231029074036-8717e41193b7/go.mod h1:D4OSZbHPYKHUVDwDZja9QB5T1K4n6l2OtOVbpkSTdZM=
 github.com/tierklinik-dobersberg/go-dbf v0.1.0/go.mod h1:D8nutiFua4yNMPs0c+efws/L2Vl34yspIzOFSNOtxVg=
 github.com/tierklinik-dobersberg/go-vetinf v0.1.5/go.mod h1:eGt2HDnpDCGub7UKEK0Zi6FF8863+VuitlpSD2s0BWY=
 github.com/tierklinik-dobersberg/logger v0.2.0/go.mod h1:5xiqHfUncsmSw5X/nkWI39Xw1GP3Km3CDNPq5lU68HE=
@@ -1240,6 +1256,8 @@ github.com/tierklinik-dobersberg/rosterd v0.0.0-20231002083014-b0b8c12cd61d h1:H
 github.com/tierklinik-dobersberg/rosterd v0.0.0-20231002083014-b0b8c12cd61d/go.mod h1:DKwTHCWEodBnVR8LiO6C0WCT9LmsSrN58ZMWLVz7Zrc=
 github.com/tierklinik-dobersberg/rosterd v0.0.0-20231002090603-a3f1ff7d5ca0 h1:5OMZXlDWikpq92bAILxIgyG7Wo5cbZxgvY7cqFFuaCY=
 github.com/tierklinik-dobersberg/rosterd v0.0.0-20231002090603-a3f1ff7d5ca0/go.mod h1:8blT3FBa0VgA97vno0Oc8A0+NK97UrwbAh1D1MsMEEU=
+github.com/tierklinik-dobersberg/rosterd v0.0.0-20231026103016-a4e724a7d1b6 h1:5rbve5SZoSyMwjlCw9MG0+z/Yx36DTp1I3kKvaXWUFA=
+github.com/tierklinik-dobersberg/rosterd v0.0.0-20231026103016-a4e724a7d1b6/go.mod h1:oksMQMnfJZ2koxgSUOPmwxCgL95nnEwr9TPiz2Q4dX8=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
 github.com/ttacon/builder v0.0.0-20170518171403-c099f663e1c2/go.mod h1:4kyMkleCiLkgY6z8gK5BkI01ChBtxR0ro3I1ZDcGM3w=
 github.com/ttacon/libphonenumber v1.2.1/go.mod h1:E0TpmdVMq5dyVlQ7oenAkhsLu86OkUl+yR4OAxyEg/M=
@@ -1363,6 +1381,8 @@ golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3/go.mod h1:IxCIyHEi3zRg3s0
 golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.13.0 h1:mvySKfSWJ+UKUii46M40LOvyWfN0s2U+46/jDd0e6Ck=
 golang.org/x/crypto v0.13.0/go.mod h1:y6Z2r+Rw4iayiXXAIxJIDAJ1zMW4yaTpebo8fPOliYc=
+golang.org/x/crypto v0.14.0 h1:wBqGXzWJW6m1XrIKlAH0Hs1JJ7+9KBwnIO8v66Q9cHc=
+golang.org/x/crypto v0.14.0/go.mod h1:MVFd36DqK4CsrnJYDkBA3VC4m2GkXAM0PvzMCn4JQf4=
 golang.org/x/exp v0.0.0-20190121172915-509febef88a4/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
 golang.org/x/exp v0.0.0-20190306152737-a1d7652674e8/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
 golang.org/x/exp v0.0.0-20190510132918-efd6b22b2522/go.mod h1:ZjyILWgesfNpC6sMxTJOJm9Kp84zZh5NQWvqDGG3Qr8=
@@ -1375,6 +1395,8 @@ golang.org/x/exp v0.0.0-20200207192155-f17229e696bd/go.mod h1:J/WKrq2StrnmMY6+EH
 golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6/go.mod h1:3jZMyOhIsHpP37uCMkUooju7aAi5cS1Q23tOzKc+0MU=
 golang.org/x/exp v0.0.0-20230905200255-921286631fa9 h1:GoHiUyI/Tp2nVkLI2mCxVkOjsbSXD66ic0XW0js0R9g=
 golang.org/x/exp v0.0.0-20230905200255-921286631fa9/go.mod h1:S2oDrQGGwySpoQPVqRShND87VCbxmc6bL1Yd2oYrm6k=
+golang.org/x/exp v0.0.0-20231006140011-7918f672742d h1:jtJma62tbqLibJ5sFQz8bKtEM8rJBtfilJ2qTU199MI=
+golang.org/x/exp v0.0.0-20231006140011-7918f672742d/go.mod h1:ldy0pHrwJyGW56pPQzzkH36rKxoZW1tw7ZJpeKx+hdo=
 golang.org/x/image v0.0.0-20190227222117-0694c2d4d067/go.mod h1:kZ7UVZpmo3dzQBMxlp+ypCbDeSB+sBbTgSJuh5dn5js=
 golang.org/x/image v0.0.0-20190802002840-cff245a6509b/go.mod h1:FeLwcggjj3mMvU+oOTbSwawSJRM1uh48EjtB4UJZlP0=
 golang.org/x/lint v0.0.0-20181026193005-c67002cb31c3/go.mod h1:UVdnD1Gm6xHRNCYTkRU2/jEulfH38KcIWyp/GAMgvoE=
@@ -1481,6 +1503,8 @@ golang.org/x/net v0.0.0-20221012135044-0b7e1fb9d458/go.mod h1:YDH+HFinaLZZlnHAfS
 golang.org/x/net v0.0.0-20221014081412-f15817d10f9b/go.mod h1:YDH+HFinaLZZlnHAfSS6ZXJJ9M9t4Dl22yv3iI2vPwk=
 golang.org/x/net v0.15.0 h1:ugBLEUaxABaB5AJqW9enI0ACdci2RUd4eP51NTBvuJ8=
 golang.org/x/net v0.15.0/go.mod h1:idbUs1IY1+zTqbi8yxTbhexhEEk5ur9LInksu6HrEpk=
+golang.org/x/net v0.17.0 h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM=
+golang.org/x/net v0.17.0/go.mod h1:NxSsAGuq816PNPmqtQdLE42eU2Fs7NoRIZrHJAlaCOE=
 golang.org/x/oauth2 v0.0.0-20170912212905-13449ad91cb2/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
@@ -1529,6 +1553,8 @@ golang.org/x/sync v0.0.0-20220929204114-8fcdb60fdcc0/go.mod h1:RxMgew5VJxzue5/jJ
 golang.org/x/sync v0.1.0/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
 golang.org/x/sync v0.3.0 h1:ftCYgMx6zT/asHUrPw8BLLscYtGznsLAnjq5RH9P66E=
 golang.org/x/sync v0.3.0/go.mod h1:FU7BRWz2tNW+3quACPkgCx/L+uEAv1htQ0V83Z9Rj+Y=
+golang.org/x/sync v0.4.0 h1:zxkM55ReGkDlKSM+Fu41A+zmbZuaPVbGMzvvdUPznYQ=
+golang.org/x/sync v0.4.0/go.mod h1:FU7BRWz2tNW+3quACPkgCx/L+uEAv1htQ0V83Z9Rj+Y=
 golang.org/x/sys v0.0.0-20180823144017-11551d06cbcc/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/sys v0.0.0-20180830151530-49385e6e1522/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
@@ -1641,6 +1667,8 @@ golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.1.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.12.0 h1:CM0HF96J0hcLAwsHPJZjfdNzs0gftsLfgKt57wWHJ0o=
 golang.org/x/sys v0.12.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.13.0 h1:Af8nKPmuFypiUBjVoU9V20FiaFXOcuZI21p0ycVYYGE=
+golang.org/x/sys v0.13.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/term v0.0.0-20201117132131-f5c789dd3221/go.mod h1:Nr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
 golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
@@ -1648,6 +1676,7 @@ golang.org/x/term v0.0.0-20210916214954-140adaaadfaf/go.mod h1:jbD1KX2456YbFQfuX
 golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod h1:jbD1KX2456YbFQfuXm/mYQcufACuNUgVhRMnK/tPxf8=
 golang.org/x/term v0.12.0 h1:/ZfYdc3zq+q02Rv9vGqTeSItdzZTSNDmfTi0mBAuidU=
 golang.org/x/term v0.12.0/go.mod h1:owVbMEjm3cBLCHdkQu9b1opXd4ETQWc3BhuQGKgXgvU=
+golang.org/x/term v0.13.0/go.mod h1:LTmsnFJwVN6bCy1rVCoS+qHT1HhALEFxKncY3WNNh4U=
 golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.3.1-0.20180807135948-17ff2d5776d2/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
