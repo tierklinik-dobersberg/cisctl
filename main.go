@@ -5,7 +5,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/tierklinik-dobersberg/apis/pkg/cli"
 
-	idm "github.com/tierklinik-dobersberg/cis-idm/cmds/userctl/cmds"
+	pbx "github.com/tierklinik-dobersberg/3cx-support/cmd/callctl/cmds"
+	calendar "github.com/tierklinik-dobersberg/cis-cal/cmds/ciscalctl/cmds"
+	idm "github.com/tierklinik-dobersberg/cis-idm/cmds/idmctl/cmds"
+	comments "github.com/tierklinik-dobersberg/comment-service/cmds/client/cmds"
 	roster "github.com/tierklinik-dobersberg/rosterd/cmds/rosterctl/cmds"
 )
 
@@ -32,6 +35,7 @@ func main() {
 		idm.GetUsersCommand(root),
 		idm.GetSendNotificationCommand(root),
 		idm.GetRegisterUserCommand(root),
+		idm.GenerateVAPIDKeys(),
 
 		// Roster commands
 		roster.WorkShiftCommand(root),
@@ -39,6 +43,20 @@ func main() {
 		roster.ConstraintCommand(root),
 		roster.RosterCommand(root),
 		roster.OffTimeCommand(root),
+
+		// Comments command
+		comments.CommentsCommand(root),
+		comments.ScopeCommand(root),
+
+		// Calendar commands
+		calendar.GetCalendarCommand(root),
+		calendar.GetEventsCommand(root),
+		calendar.GetHolidayCommand(root),
+
+		// Call commands
+		pbx.GetCallLogCommand(root),
+		pbx.GetOnDutyCommand(root),
+		pbx.GetInboundNumbersCommand(root),
 	)
 
 	if err := root.ExecuteContext(root.Context()); err != nil {
