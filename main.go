@@ -9,6 +9,7 @@ import (
 	calendar "github.com/tierklinik-dobersberg/cis-cal/cmds/ciscalctl/cmds"
 	idm "github.com/tierklinik-dobersberg/cis-idm/cmds/idmctl/cmds"
 	comments "github.com/tierklinik-dobersberg/comment-service/cmds/client/cmds"
+	customer "github.com/tierklinik-dobersberg/customer-service/cmds/customercli/cmds"
 	roster "github.com/tierklinik-dobersberg/rosterd/cmds/rosterctl/cmds"
 )
 
@@ -24,6 +25,16 @@ func dumpConfig(root *cli.Root) *cobra.Command {
 
 func main() {
 	root := cli.New("cisctl")
+
+	customerCmd := &cobra.Command{
+		Use:     "customers",
+		Aliases: []string{"customer"},
+	}
+
+	customerCmd.AddCommand(
+		customer.GetSearchCommand(root),
+		customer.GetUpdateCustomerCommand(root),
+	)
 
 	root.AddCommand(
 		dumpConfig(root),
@@ -57,6 +68,9 @@ func main() {
 		pbx.GetCallLogCommand(root),
 		pbx.GetOnDutyCommand(root),
 		pbx.GetInboundNumbersCommand(root),
+
+		// Customer Commands
+		customerCmd,
 	)
 
 	if err := root.ExecuteContext(root.Context()); err != nil {
