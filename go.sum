@@ -1305,6 +1305,7 @@ github.com/tierklinik-dobersberg/apis v0.0.30 h1:FpioFq5546BvXiggayM9Y0r+xAEEOVW
 github.com/tierklinik-dobersberg/apis v0.0.30/go.mod h1:BCMOcJ9ynWMrRdaNb3sBs/xJxGBXPi78zEGrvUUBKXA=
 github.com/tierklinik-dobersberg/apis v0.0.31-0.20240816053348-1bad8db0919c h1:1L4BEKYiDnLooJQuDPaWl9E9FifK4m/nF9xMww28BqY=
 github.com/tierklinik-dobersberg/apis v0.0.31-0.20240816053348-1bad8db0919c/go.mod h1:btvcOqRgDFHWesLlp9ZWdZXhBBjS/ZiS8ZuPDgnx6r8=
+github.com/tierklinik-dobersberg/apis v0.0.31-0.20240816093758-41642b168328/go.mod h1:btvcOqRgDFHWesLlp9ZWdZXhBBjS/ZiS8ZuPDgnx6r8=
 github.com/tierklinik-dobersberg/cis v0.0.0-20221117114909-db8d495a4502 h1:NGwJZ6HPTjOhP+hHULdcoNgayybTdzV+2nzFQcnaeVE=
 github.com/tierklinik-dobersberg/cis v0.0.0-20221117114909-db8d495a4502/go.mod h1:o+Od7FimjdMun8KtG3VNNb+wuhawkPE5yGOmx53Wgx4=
 github.com/tierklinik-dobersberg/cis v0.0.0-20231026102947-826fb1672599 h1:HrRksYRR5OcpJEsqdNYi2OU+rdURPvrwI4sU14gTh+8=
@@ -1331,6 +1332,8 @@ github.com/tierklinik-dobersberg/comment-service v1.0.0 h1:zrtmZgtb+gRLCfC6rWN0O
 github.com/tierklinik-dobersberg/comment-service v1.0.0/go.mod h1:ZDHRcvPn8GT3myuhUvotM2fUZeTz1WxkGq+jTNf9yPs=
 github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816055146-5731a0be741f h1:r5U0ARznDdrjJioW1Pk3vC2rg2hVA9FOehiqyIo2q6o=
 github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816055146-5731a0be741f/go.mod h1:4mR2e2uBJ33jK58brWY4+o0AorgvhU9cLUkjpaBj51g=
+github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816094048-8b2662f38ca0 h1:9f1r7PgFW518YeU/GGHm7QlrZ9Goas/3by2GqPyg3JM=
+github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816094048-8b2662f38ca0/go.mod h1:+k59VSA14RiVkMdnYJcxK5gDLJluT6AnfpzBcsaHSHw=
 github.com/tierklinik-dobersberg/go-dbf v0.1.0/go.mod h1:D8nutiFua4yNMPs0c+efws/L2Vl34yspIzOFSNOtxVg=
 github.com/tierklinik-dobersberg/go-vetinf v0.1.5/go.mod h1:eGt2HDnpDCGub7UKEK0Zi6FF8863+VuitlpSD2s0BWY=
 github.com/tierklinik-dobersberg/logger v0.2.0/go.mod h1:5xiqHfUncsmSw5X/nkWI39Xw1GP3Km3CDNPq5lU68HE=

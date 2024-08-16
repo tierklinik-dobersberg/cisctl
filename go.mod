@@ -7,7 +7,7 @@ toolchain go1.23.0
 require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
-	github.com/tierklinik-dobersberg/apis v0.0.31-0.20240816053348-1bad8db0919c
+	github.com/tierklinik-dobersberg/apis v0.0.31-0.20240816093758-41642b168328
 	github.com/tierklinik-dobersberg/cis-idm v0.11.0
 	github.com/tierklinik-dobersberg/rosterd v1.4.16
 )
@@ -61,7 +61,7 @@ require (
 	github.com/tierklinik-dobersberg/cis v1.3.1 // indirect
 	github.com/tierklinik-dobersberg/cis-cal v1.1.2 // indirect
 	github.com/tierklinik-dobersberg/comment-service v1.0.0 // indirect
-	github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816055146-5731a0be741f // indirect
+	github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816094048-8b2662f38ca0 // indirect
 	github.com/vincent-petithory/dataurl v1.0.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
