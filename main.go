@@ -68,6 +68,7 @@ func main() {
 		pbx.GetCallLogCommand(root),
 		pbx.GetOnDutyCommand(root),
 		pbx.GetInboundNumbersCommand(root),
+		pbx.GetVoiceMailCommand(root),
 
 		// Customer Commands
 		customerCmd,

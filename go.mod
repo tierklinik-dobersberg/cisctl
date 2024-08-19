@@ -7,7 +7,7 @@ toolchain go1.23.0
 require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
-	github.com/tierklinik-dobersberg/apis v0.0.31-0.20240816093758-41642b168328
+	github.com/tierklinik-dobersberg/apis v0.0.31-0.20240819083207-9c2d2d4810ad
 	github.com/tierklinik-dobersberg/cis-idm v0.11.0
 	github.com/tierklinik-dobersberg/rosterd v1.4.16
 )
@@ -28,6 +28,7 @@ require (
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/cel-go v0.21.0 // indirect
+	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
@@ -49,19 +50,25 @@ require (
 	github.com/muesli/clusters v0.0.0-20200529215643-2700303c1762 // indirect
 	github.com/muesli/gamut v0.3.1 // indirect
 	github.com/muesli/kmeans v0.3.1 // indirect
+	github.com/mxk/go-imap v0.0.0-20150429134902-531c36c3f12d // indirect
 	github.com/nyaruka/phonenumbers v1.4.0 // indirect
+	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
+	github.com/ppacher/system-conf v0.10.2 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/cors v1.11.0 // indirect
 	github.com/sebest/xff v0.0.0-20210106013422-671bd2870b3a // indirect
 	github.com/sethvargo/go-envconfig v1.1.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
+	github.com/sloonz/go-qprintable v0.0.0-20210417175225-715103f9e6eb // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
-	github.com/tierklinik-dobersberg/3cx-support v1.2.3-0.20240816062725-8f8005c34fae // indirect
+	github.com/tierklinik-dobersberg/3cx-support v1.4.1-0.20240819084123-cb0416088a4b // indirect
 	github.com/tierklinik-dobersberg/cis v1.3.1 // indirect
 	github.com/tierklinik-dobersberg/cis-cal v1.1.2 // indirect
 	github.com/tierklinik-dobersberg/comment-service v1.0.0 // indirect
 	github.com/tierklinik-dobersberg/customer-service v0.0.0-20240816094048-8b2662f38ca0 // indirect
+	github.com/tierklinik-dobersberg/logger v0.4.0 // indirect
+	github.com/tierklinik-dobersberg/mailbox v0.0.4 // indirect
 	github.com/vincent-petithory/dataurl v1.0.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
