@@ -11,6 +11,7 @@ import (
 	comments "github.com/tierklinik-dobersberg/comment-service/cmds/client/cmds"
 	customer "github.com/tierklinik-dobersberg/customer-service/cmds/customercli/cmds"
 	roster "github.com/tierklinik-dobersberg/rosterd/cmds/rosterctl/cmds"
+	tasks "github.com/tierklinik-dobersberg/task-service/cmds/taskcli/cmds"
 )
 
 func dumpConfig(root *cli.Root) *cobra.Command {
@@ -72,6 +73,10 @@ func main() {
 
 		// Customer Commands
 		customerCmd,
+
+		// Tasks
+		tasks.GetBoardsCommand(root),
+		tasks.TasksCommand(root),
 	)
 
 	if err := root.ExecuteContext(root.Context()); err != nil {
