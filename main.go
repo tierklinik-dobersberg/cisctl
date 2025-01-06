@@ -70,6 +70,7 @@ func main() {
 		pbx.GetOnDutyCommand(root),
 		pbx.GetInboundNumbersCommand(root),
 		pbx.GetVoiceMailCommand(root),
+		pbx.GetPhoneExtensionsCommand(root),
 
 		// Customer Commands
 		customerCmd,
